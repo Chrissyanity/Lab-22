@@ -1,0 +1,26 @@
+.tagline {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -700px;
+    /*position: absolute;*/
+    /*z-index: -100;*/
+}
+
+#photos {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+#link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: #FF5733;
+}

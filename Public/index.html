@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="myMod">
+
+<head>
+    <meta charset="utf-8">
+    <title>Detroit Phrases</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1>The Great City of Detroit</h1>
+    <div id="link">
+        <button type=button><a href="#/phrases" class="navi">Random Detroit Phrase</a></button>
+    </div>
+
+
+
+    <ng-view></ng-view>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js"></script>
+    <script src="module.js"></script>
+    <script src="config.js"></script>
+    <script src="controller.js"></script>
+</body>
+
+</html>
